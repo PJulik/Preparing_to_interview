@@ -16,7 +16,7 @@ def check(string: str):
     return (not stack)
 
 while True:
-    el = input('Enter symbol: ')
+    el = input('Enter string: ')
     if not el:
         exit()
     print(check(el))
